@@ -1,0 +1,43 @@
+body {
+    background-color: brown;
+}
+
+.reveal-text {
+    font-size: 7em;
+    font-weight: 900;
+}
+
+@supports (-webkit-background-clip: text) or (background-clip: text) {
+    .reveal-text {
+        color: transparent;
+        -webkit-background-clip: text;
+        /* background-clip property will set the text to use the background image we provided */
+        background-clip: text;
+        background-image: url("reveal_background.jpg");
+        background-repeat: repeat-x;
+        animation: reveal-background 2s ease-in-out;
+        /* animation-fill-mode will keep the values of the props from the animation at 100%, without this values from 0%(the start) of the animation will be used. In this case we don't want that so we can keep the full size of background fill to see the text after animation is finished */
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes reveal-background {
+    0% {
+        background-size: 0px;
+        background-position-y: 0%;
+    }
+    10% {
+        background-size: 30px;
+        background-position-y: 0%;
+    }
+    35%, 45% {
+        background-position-y: 100%;
+    }
+    70% {
+        background-size: 30px;
+        background-position-y: 0%;
+    }
+    100% {
+        background-size: 200px;
+    }
+}
