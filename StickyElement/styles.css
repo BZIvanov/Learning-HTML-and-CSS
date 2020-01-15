@@ -1,0 +1,26 @@
+html {
+  height: 300%;
+}
+
+.list-content {
+  padding: 10px 20px;
+}
+
+.list-header {
+  background-color: #333;
+  color: #00ff6c;
+  padding: 10px;
+}
+
+/* in case sticky is not supported by the browser */
+.list-header {
+  position: relative;
+}
+
+@supports (position: sticky) {
+  .list-header {
+    /* sticky is applied as long as the parent element is on the display, that is why every other sticky element is replacing the previous */
+    position: sticky;
+    top: 0;
+  }
+}
