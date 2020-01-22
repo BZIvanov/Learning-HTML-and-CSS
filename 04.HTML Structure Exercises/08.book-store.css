@@ -1,7 +1,9 @@
 table {
     border-collapse: collapse;
     border-spacing: 0;
-    margin: 10px;
+    /* calc allows us to use calculated values and measurement units are the ones css can recognise. Keep in mind spaces arround calc matters, calc () this will not work */
+    margin: calc(30px - 20px);
+    color: rgba(100, calc(100 - calc(20 + 30)), 300, 0.9);
 }
 
 tr, th, td {
