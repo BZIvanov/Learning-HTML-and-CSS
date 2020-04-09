@@ -45,6 +45,7 @@ p {
     padding-bottom: 5px;
 }
 
+/* will select p element which is sibling of figure and comes right after it. They are direct children of the same parent */
 figure + p {
     color: #94c258;
 }
