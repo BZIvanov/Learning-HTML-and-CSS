@@ -1,9 +1,15 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
 body {
-  background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+  background: linear-gradient(
+    to right,
+    hsl(200, 100%, 50%),
+    hsl(175, 100%, 50%)
+  );
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +20,7 @@ body {
 .clock {
   width: 300px;
   height: 300px;
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
   border: 2px solid black;
   position: relative;
@@ -30,17 +36,39 @@ body {
   font-size: 1.5rem;
 }
 
-.clock .number1 { --rotation: 30deg; }
-.clock .number2 { --rotation: 60deg; }
-.clock .number3 { --rotation: 90deg; }
-.clock .number4 { --rotation: 120deg; }
-.clock .number5 { --rotation: 150deg; }
-.clock .number6 { --rotation: 180deg; }
-.clock .number7 { --rotation: 210deg; }
-.clock .number8 { --rotation: 240deg; }
-.clock .number9 { --rotation: 270deg; }
-.clock .number10 { --rotation: 300deg; }
-.clock .number11 { --rotation: 330deg; }
+.clock .number1 {
+  --rotation: 30deg;
+}
+.clock .number2 {
+  --rotation: 60deg;
+}
+.clock .number3 {
+  --rotation: 90deg;
+}
+.clock .number4 {
+  --rotation: 120deg;
+}
+.clock .number5 {
+  --rotation: 150deg;
+}
+.clock .number6 {
+  --rotation: 180deg;
+}
+.clock .number7 {
+  --rotation: 210deg;
+}
+.clock .number8 {
+  --rotation: 240deg;
+}
+.clock .number9 {
+  --rotation: 270deg;
+}
+.clock .number10 {
+  --rotation: 300deg;
+}
+.clock .number11 {
+  --rotation: 330deg;
+}
 
 .clock .hand {
   --rotation: 0;
@@ -55,6 +83,7 @@ body {
   transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
 }
 
+/* side note: keep in mind that using ::after and ::before on img tag will not work, because the image is the actual content, to workaround place the image in a div and use pseudo selector on the div */
 .clock::after {
   content: '';
   position: absolute;

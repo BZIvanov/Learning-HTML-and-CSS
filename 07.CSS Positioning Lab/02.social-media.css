@@ -1,79 +1,87 @@
+/* root is special pseudo selector which will target the html tag and set something on it, which we can use globally */
 :root {
-    --items-height: 150px;
+  --items-height: 150px;
 }
 
 body {
-    background: rgb(41, 41, 41);
+  background: rgb(41, 41, 41);
 }
 
-ul, li, div, section, a {
-    margin: 0;
-    padding: 0;
+ul,
+li,
+div,
+section,
+a {
+  margin: 0;
+  padding: 0;
 }
 
 footer {
-    height: var(--items-height);
-    margin: 0 auto;
+  height: var(--items-height);
+  margin: 0 auto;
 }
 
 h2 {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 section {
-    float: left;
-    margin-left: 10px;
-    padding: 20px;
-    height: var(--items-height);
-    color: #ffffff;
+  float: left;
+  margin-left: 10px;
+  padding: 20px;
+  height: var(--items-height);
+  color: #ffffff;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(181, 180, 152);
-    font-size: 30px;
-    text-transform: capitalize;
+  text-decoration: none;
+  color: rgb(181, 180, 152);
+  font-size: 30px;
+  text-transform: capitalize;
 }
 
 footer > section > div div {
-    width: 70px;
-    height: 58px;
-    background: url("images/social.jpg");
-    display: inline-block;
+  width: 70px;
+  height: 58px;
+  background: url('images/social.jpg');
+  display: inline-block;
 }
 
 .twitter {
-    background-position: 772px 126px;
+  background-position: 772px 126px;
 }
 
 .linkedin {
-    background-position: 642px 126px;
+  background-position: 642px 126px;
 }
 
 .youtube {
-    background-position: 325px 126px;
+  background-position: 325px 126px;
 }
 
-.facebook, .twitter, .youtube, .linkedin {
-    cursor: pointer;
+.facebook,
+.twitter,
+.youtube,
+.linkedin {
+  cursor: pointer;
 }
 
 .facebook:hover {
-    background-position: 0 60px;
+  background-position: 0 60px;
 }
 
 .linkedin:hover {
-    background-position: 642px 63px;
+  background-position: 642px 63px;
 }
 
 .youtube:hover {
-    background-position: 325px 63px;
+  background-position: 325px 63px;
 }
 
 .twitter:hover {
-    background-position: -66px 63px;
+  background-position: -66px 63px;
 }
