@@ -1,12 +1,14 @@
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    /* calc allows us to use calculated values and measurement units are the ones css can recognise. Keep in mind spaces arround calc matters, calc () this will not work */
-    margin: calc(30px - 20px);
-    color: rgba(100, calc(100 - calc(20 + 30)), 300, 0.9);
+  border-collapse: collapse;
+  border-spacing: 0;
+  /* calc allows us to use calculated values and measurement units are the ones css can recognise. Keep in mind spaces arround calc matters, calc () this will not work */
+  margin: calc(30px - 20px);
+  color: rgba(100, calc(100 - calc(20 + 30)), 300, 0.9);
 }
 
-tr, th, td {
-    border: 1px solid #C6C7CC;
-    padding: 5px 5px 5px 20px;
+tr,
+th,
+td {
+  border: 1px solid #c6c7cc;
+  padding: 5px 5px 5px 20px;
 }
