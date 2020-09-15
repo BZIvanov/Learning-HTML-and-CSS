@@ -1,88 +1,88 @@
 @font-face {
-    font-family: "Lemon";
-    src: url("fonts/Lemon-Regular.ttf");
+  font-family: 'Lemon';
+  src: url('fonts/Lemon-Regular.ttf');
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: Lemon, Arial, sans-serif;
-    background: #602D75;
+  font-family: Lemon, Arial, sans-serif;
+  background: #602d75;
 }
 
 .container {
-    width: 900px;
-    margin: 35px auto;
-    background: #FFAE32;
-    border-radius: 20px;
+  width: 900px;
+  margin: 35px auto;
+  background: #ffae32;
+  border-radius: 20px;
 }
 
 h1 {
-    text-transform: capitalize;
-    font-size: 24px;
-    text-align: center;
-    padding-top: 25px;
+  text-transform: capitalize;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 25px;
 }
 
 article {
-    display: inline-block;
-    width: 220px;
-    margin: 35px;
-    background: #5F2056;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+  display: inline-block;
+  width: 220px;
+  margin: 35px;
+  background: #5f2056;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 img {
-    width: 180px;
-    border-radius: 50%;
-    border: 5px solid #826A73;
-    position: relative;
-    left: 15px;;
+  width: 180px;
+  border-radius: 50%;
+  border: 5px solid #826a73;
+  position: relative;
+  left: 15px;
 }
 
 img:hover {
-    border: 5px solid #FA4F00;
-    cursor: pointer;
+  border: 5px solid #fa4f00;
+  cursor: pointer;
 }
 
 article h2 {
-    text-align: center;
-    color: #ffffff;
-    font-size: 22px;
-    padding: 5px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 5px;
 }
 
 article p {
-    color: #FFAE32;
-    text-align: center;
-    padding-bottom: 5px;
+  color: #ffae32;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
 article h3 {
-    color: #ffffff;
-    font-size: 15px;
-    padding-left: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  padding-left: 15px;
 }
 
 button {
-    border: 2px solid #8F9390;
-    background: #ffffff;
-    color: #9348FF;
-    font-family: Lemon, sans-serif;
-    text-align: center;
-    padding: 5px 50px;
-    border-radius: 15px;
-    margin: 15px 10px;
-    font-style: italic;
-    position: relative;
-    left: 5px;
+  border: 2px solid #8f9390;
+  background: #ffffff;
+  color: #9348ff;
+  font-family: Lemon, sans-serif;
+  text-align: center;
+  padding: 5px 50px;
+  border-radius: 15px;
+  margin: 15px 10px;
+  font-style: italic;
+  position: relative;
+  left: 5px;
 }
 
 button:hover {
-    color: #000000;
-    cursor: pointer;
+  color: #000000;
+  cursor: pointer;
 }

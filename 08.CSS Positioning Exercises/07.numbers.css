@@ -1,67 +1,67 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    width: 800px;
-    margin: 100px auto;
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    text-align: center;
+  width: 800px;
+  margin: 100px auto;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  text-align: center;
 }
 
 h1 {
-    background: #DDDDDD;
-    border-radius: 15px;
-    font-size: 18px;
-    text-transform: capitalize;
-    color: #9470DC;
-    padding: 15px;
+  background: #dddddd;
+  border-radius: 15px;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #9470dc;
+  padding: 15px;
 }
 
 article {
-    display: inline-block;
-    width: 175px;
-    background: #EEEEEE;
-    margin: 20px 10px;
-    border-radius: 10px;
+  display: inline-block;
+  width: 175px;
+  background: #eeeeee;
+  margin: 20px 10px;
+  border-radius: 10px;
 }
 
 div {
-    width: 141px;
-    height: 141px;
-    background: #9470DC;
-    border-radius: 50%;
-    margin: 10px auto;
-    line-height: 141px;
-    color: #ffffff;
-    font-size: 28px;
+  width: 141px;
+  height: 141px;
+  background: #9470dc;
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 141px;
+  color: #ffffff;
+  font-size: 28px;
 }
 
 div:hover {
-    background: #ffffff;
-    color: #9470DC;
-    cursor: pointer;
+  background: #ffffff;
+  color: #9470dc;
+  cursor: pointer;
 }
 
 p {
-    color: #B1AEB7;
-    padding: 15px;
+  color: #b1aeb7;
+  padding: 15px;
 }
 
 button {
-    text-transform: capitalize;
-    color: #636473;
-    border: transparent;
-    background: #DDDDDD;
-    border-radius: 7px;
-    padding: 7px 40px;
-    margin-bottom: 10px;
-    font-size: 14px;
+  text-transform: capitalize;
+  color: #636473;
+  border: transparent;
+  background: #dddddd;
+  border-radius: 7px;
+  padding: 7px 40px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 button:hover {
-    background: #ffffff;
-    cursor: pointer;
+  background: #ffffff;
+  cursor: pointer;
 }

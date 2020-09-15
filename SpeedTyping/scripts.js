@@ -13,7 +13,7 @@ quoteInputElement.addEventListener('input', () => {
     if (character == null) {
       characterSpan.classList.remove('correct');
       characterSpan.classList.remove('incorrect');
-      correct = false
+      correct = false;
     } else if (character === characterSpan.innerText) {
       characterSpan.classList.add('correct');
       characterSpan.classList.remove('incorrect');
@@ -22,24 +22,24 @@ quoteInputElement.addEventListener('input', () => {
       characterSpan.classList.add('incorrect');
       correct = false;
     }
-  })
+  });
 
   if (correct) renderNewQuote();
-})
+});
 
 function getRandomQuote() {
   return fetch(RANDOM_QUOTE_API_URL)
-    .then(response => response.json())
-    .then(data => data.content);
+    .then((response) => response.json())
+    .then((data) => data.content);
 }
 
 async function renderNewQuote() {
   const quote = await getRandomQuote();
   quoteDisplayElement.innerHTML = '';
-  quote.split('').forEach(character => {
-    const characterSpan = document.createElement('span')
-    characterSpan.innerText = character
-    quoteDisplayElement.appendChild(characterSpan)
+  quote.split('').forEach((character) => {
+    const characterSpan = document.createElement('span');
+    characterSpan.innerText = character;
+    quoteDisplayElement.appendChild(characterSpan);
   });
   quoteInputElement.value = null;
   startTimer();
@@ -51,7 +51,7 @@ function startTimer() {
   startTime = new Date();
   setInterval(() => {
     timer.innerText = getTimerTime();
-  }, 1000)
+  }, 1000);
 }
 
 function getTimerTime() {

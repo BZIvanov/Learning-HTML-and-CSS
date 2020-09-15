@@ -1,56 +1,58 @@
 @font-face {
-    font-family: "Open Sans extrabold";
-    src: url("fonts/OpenSans-ExtraBold.ttf");
+  font-family: 'Open Sans extrabold';
+  src: url('fonts/OpenSans-ExtraBold.ttf');
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 0 auto;
-    font-family: "Open Sans extrabold", sans-serif;
-    background: #F0F0E8;
-    width: 1000px;
-    text-align: center;
+  margin: 0 auto;
+  font-family: 'Open Sans extrabold', sans-serif;
+  background: #f0f0e8;
+  width: 1000px;
+  text-align: center;
 }
 
 h1 {
-    color: #009288;
-    margin: 35px;
-    text-align: center;
-    font-size: 56px;
+  color: #009288;
+  margin: 35px;
+  text-align: center;
+  font-size: 56px;
 }
 
 body > p {
-    padding: 20px;
+  padding: 20px;
 }
 
-h2, h3, p {
-    color: #81777F;
-    font-size: 16px;
+h2,
+h3,
+p {
+  color: #81777f;
+  font-size: 16px;
 }
 
 article {
-    width: 160px;
-    display: inline-block;
-    margin: 10px;
-    border-left: 10px solid transparent;
-    padding: 10px;
+  width: 160px;
+  display: inline-block;
+  margin: 10px;
+  border-left: 10px solid transparent;
+  padding: 10px;
 }
 
 article > h2 {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 article > p {
-    font-family: "Open Sans", sans-serif;
-    font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
 }
 
 article:hover {
-    background: #F6F6F5;
-    border-left-color: #009288;
-    cursor: pointer;
+  background: #f6f6f5;
+  border-left-color: #009288;
+  cursor: pointer;
 }

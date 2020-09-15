@@ -11,7 +11,7 @@ a {
   font-size: 18px;
 }
 
-a[href$=".pdf"] {
+a[href$='.pdf'] {
   color: green;
 }
 
@@ -23,7 +23,7 @@ li {
 the logic is that this works like a loop, where itterations start from 0 and incrase by 1
 so we will have the following sequence 2 * 0 + 3 ==> 2 * 1 + 3 ==> 2 * 2 + 3 and so on...
 */
-#hi li:nth-child(2n+3) {
+#hi li:nth-child(2n + 3) {
   color: blue;
 }
 
@@ -33,7 +33,7 @@ so we will have the following sequence 2 * 0 + 3 ==> 2 * 1 + 3 ==> 2 * 2 + 3 and
 }
 
 /* here each of the three will be checked individually, but the rules will be applied where all 3 are valid */
-#wo li:nth-child(n+2):nth-child(odd):nth-child(-n+9) {
+#wo li:nth-child(n + 2):nth-child(odd):nth-child(-n + 9) {
   color: teal;
   font-size: 21px;
 }
