@@ -1,176 +1,178 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
 }
 
 header {
-    background: radial-gradient(ellipse at center,
-    rgba(192,169,145,1) 0%,
-    rgba(192,169,145,1) 59%,
-    rgba(168,143,121,1) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(192, 169, 145, 1) 0%,
+    rgba(192, 169, 145, 1) 59%,
+    rgba(168, 143, 121, 1) 100%
+  );
 }
 
 body nav {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 nav > p {
-    float: left;
-    color: #ffffff;
-    padding: 20px;
-    font-weight: bold;
-    font-size: 1.5rem;
+  float: left;
+  color: #ffffff;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 nav > ul {
-    float: right;
-    margin: 25px 50px 0 0;
+  float: right;
+  margin: 25px 50px 0 0;
 }
 
 nav ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 20px;
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
 }
 
 nav ul li a {
-    color: #ffffff;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 nav ul li.button-cta {
-    border: 1px solid #ffffff;
-    border-radius: 25px;
+  border: 1px solid #ffffff;
+  border-radius: 25px;
 }
 
 nav ul li.button-cta:hover {
-    background-color: #867260;
-    cursor: pointer;
-    border-color: #867260;
+  background-color: #867260;
+  cursor: pointer;
+  border-color: #867260;
 }
 
 header > h1 {
-    text-align: center;
-    color: #ffffff;
-    text-transform: capitalize;
-    font-size: 3rem;
-    padding-top: 200px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 3rem;
+  padding-top: 200px;
 }
 
 .header-subtitle {
-    text-align: center;
-    color: #ffffff;
-    padding: 20px 0;
-    font-weight: 100;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  font-weight: 100;
 }
 
 img.header-potato {
-    width: 400px;
-    display: block;
-    margin: auto;
-    padding-top: 35px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  padding-top: 35px;
 }
 
 div.features {
-    background: url("images/potato-background.png") no-repeat;
-    background-size: cover;
+  background: url('images/potato-background.png') no-repeat;
+  background-size: cover;
 }
 
 h1.features-title {
-    text-align: center;
-    color: #8A888D;
-    text-transform: capitalize;
-    font-size: 2.5rem;
-    padding-top: 200px;
+  text-align: center;
+  color: #8a888d;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  padding-top: 200px;
 }
 
 h3.features-subtitle {
-    text-align: center;
-    color: #8A888D;
-    padding: 15px;
-    width: 600px;
-    margin: auto;
+  text-align: center;
+  color: #8a888d;
+  padding: 15px;
+  width: 600px;
+  margin: auto;
 }
 
 img.feature-potatoes {
-    display: block;
-    margin: auto;
-    padding-bottom: 100px;
+  display: block;
+  margin: auto;
+  padding-bottom: 100px;
 }
 
 h1.order-title {
-    text-align: center;
-    text-transform: capitalize;
-    color: #402D5C;
-    letter-spacing: 3px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #402d5c;
+  letter-spacing: 3px;
 }
 
 .buy-now {
-    background-color: #FAFAFA;
-    padding-bottom: 35px;
+  background-color: #fafafa;
+  padding-bottom: 35px;
 }
 
 div.buy-now > ul {
-    margin: 30px 250px;
+  margin: 30px 250px;
 }
 
 div.buy-now ul > li {
-    display: inline-block;
-    width: 300px;
-    text-align: center;
-    border-right: 1px solid #C3C3C3;
+  display: inline-block;
+  width: 300px;
+  text-align: center;
+  border-right: 1px solid #c3c3c3;
 }
 
 div ul li > h3 {
-    text-transform: capitalize;
-    padding: 10px;
-    font-size: 1.7rem;
-    font-weight: 300;
+  text-transform: capitalize;
+  padding: 10px;
+  font-size: 1.7rem;
+  font-weight: 300;
 }
 
 div ul li.potato-description {
-    padding: 10px;
-    border: none;
-    color: #B29CA7;
+  padding: 10px;
+  border: none;
+  color: #b29ca7;
 }
 
 button.btn-order {
-    border: 1px solid #B0D760;
-    color: #B0D760;
-    border-radius: 15px;
-    padding: 5px 10px;
-    text-transform: uppercase;
-    background-color: transparent;
+  border: 1px solid #b0d760;
+  color: #b0d760;
+  border-radius: 15px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
 
 button.btn-order:hover {
-    background-color: #B0D760;
-    color: #FAFAFA;
-    cursor: pointer;
+  background-color: #b0d760;
+  color: #fafafa;
+  cursor: pointer;
 }
 
 p.potato-price {
-    color: #B29CA7;
-    padding: 15px;
+  color: #b29ca7;
+  padding: 15px;
 }
 
 div ul li img {
-    width: 150px;
-    padding-bottom: 20px;
+  width: 150px;
+  padding-bottom: 20px;
 }
 
 footer {
-    background-color: #867260;
-    text-align: center;
-    color: #ffffff;
+  background-color: #867260;
+  text-align: center;
+  color: #ffffff;
 }
 
 footer > p {
-    padding: 15px 0 5px 0;
+  padding: 15px 0 5px 0;
 }

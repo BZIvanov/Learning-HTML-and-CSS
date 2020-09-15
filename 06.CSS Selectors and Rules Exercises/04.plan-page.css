@@ -1,140 +1,152 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
 }
 
 body {
-    background: linear-gradient(45deg,
-    rgba(253,149,192,1) 0%,
-    rgba(195,95,204,1) 38%,
-    rgba(175,104,241,1) 66%,
-    rgba(175,104,241,1) 84%,
-    rgba(168,125,255,1) 100%);
+  background: linear-gradient(
+    45deg,
+    rgba(253, 149, 192, 1) 0%,
+    rgba(195, 95, 204, 1) 38%,
+    rgba(175, 104, 241, 1) 66%,
+    rgba(175, 104, 241, 1) 84%,
+    rgba(168, 125, 255, 1) 100%
+  );
 }
 
 main {
-    background-color: #2D3154;
-    width: 870px;
-    height: 700px;
-    margin: 45px auto;
-    border-radius: 20px;
+  background-color: #2d3154;
+  width: 870px;
+  height: 700px;
+  margin: 45px auto;
+  border-radius: 20px;
 }
 
 div ul {
-    margin: 15px 45px;
+  margin: 15px 45px;
 }
 
 div ul li {
-    display: inline-block;
-    width: 200px;
-    height: 350px;
-    margin: 15px;
-    border-radius: 15px;
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  margin: 15px;
+  border-radius: 15px;
 }
 
 div ul li#basic-plan {
-    background-color: #ffffff;
-    background-image: url("images/plan-background-basic.png");
-    background-size: 200px 150px;
-    background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-image: url('images/plan-background-basic.png');
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
 }
 
 div ul li#pro-plan {
-    background-color: #ffffff;
-    background-image: url("images/plan-background-pro.png");
-    background-size: 200px 150px;
-    background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-image: url('images/plan-background-pro.png');
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
 }
 
 div ul li#med-plan {
-    background-color: #ffffff;
-    background-image: url("images/plan-background-med.png");
-    background-size: 200px 150px;
-    background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-image: url('images/plan-background-med.png');
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
 }
 
 div ul li h1 {
-    color: #ffffff;
-    font-size: 3.5rem;
-    font-weight: bolder;
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: bolder;
 }
 
 div ul li h2 {
-    padding: 30px 0 0 30px;
-    font-size: 3rem;
-    color: #2E3255;
+  padding: 30px 0 0 30px;
+  font-size: 3rem;
+  color: #2e3255;
 }
 
 div ul li h2:first-letter {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 div ul li p.plan {
-    padding-left: 30px;
-    color: #2D3154;
+  padding-left: 30px;
+  color: #2d3154;
 }
 
 div ul li button.select-plan {
-    border-radius: 100px;
-    color: #ffffff;
-    background: linear-gradient(45deg, rgba(253,149,192,1) 0%, rgba(195,95,204,1) 50%, rgba(175,104,241,1) 100%);
-    border: none;
-    margin-top: 58px;
-    margin-left: 80px;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 40px;
-    height: 40px;
+  border-radius: 100px;
+  color: #ffffff;
+  background: linear-gradient(
+    45deg,
+    rgba(253, 149, 192, 1) 0%,
+    rgba(195, 95, 204, 1) 50%,
+    rgba(175, 104, 241, 1) 100%
+  );
+  border: none;
+  margin-top: 58px;
+  margin-left: 80px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 40px;
+  height: 40px;
 }
 
 div ul li button.chosen-plan {
-    border-radius: 100px;
-    color: #ffffff;
-    background: linear-gradient(45deg, rgba(175,104,241,1) 0%, rgba(175,104,241,1) 50%, rgba(168,125,255,1) 100%);
-    border: none;
-    margin-top: 58px;
-    margin-left: 80px;
-    font-size: 1.5rem;
-    text-align: center;
-    width: 40px;
-    height: 40px;
+  border-radius: 100px;
+  color: #ffffff;
+  background: linear-gradient(
+    45deg,
+    rgba(175, 104, 241, 1) 0%,
+    rgba(175, 104, 241, 1) 50%,
+    rgba(168, 125, 255, 1) 100%
+  );
+  border: none;
+  margin-top: 58px;
+  margin-left: 80px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 40px;
+  height: 40px;
 }
 
 .information {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 div.information > h3.plan-title {
-    padding-left: 45px;
+  padding-left: 45px;
 }
 
 div.information > h3.plan-title:first-letter {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 div.information p.plan-descirption {
-    padding-left: 45px;
-    width: 450px;
+  padding-left: 45px;
+  width: 450px;
 }
 
 main div.next-step button.continue {
-    background: linear-gradient(45deg,  #6f68fd 0%,#8959f8 50%,#a94bf2 100%);
-    color: #ffffff;
-    border: none;
-    border-radius: 10px;
-    padding: 15px 25px;
-    display: block;
-    margin: 80px auto;
+  background: linear-gradient(45deg, #6f68fd 0%, #8959f8 50%, #a94bf2 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 25px;
+  display: block;
+  margin: 80px auto;
 }
 
 main div.next-step button.continue:first-letter {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 main div.next-step button.continue:hover {
-    background: linear-gradient(45deg,  #e2a67d 0%,#e07c60 50%,#db5e70 100%);
-    cursor: pointer;
+  background: linear-gradient(45deg, #e2a67d 0%, #e07c60 50%, #db5e70 100%);
+  cursor: pointer;
 }

@@ -1,47 +1,48 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-header, footer {
-    background: #8b603d;
-    color: white;
-    padding: 15px;
-    border: 2px solid #4B4B4B;
+header,
+footer {
+  background: #8b603d;
+  color: white;
+  padding: 15px;
+  border: 2px solid #4b4b4b;
 }
 
 .menu {
-    width: 25%;
+  width: 25%;
 }
 
 .float-left {
-    float: left;
-    padding: 15px;
+  float: left;
+  padding: 15px;
 }
 
 .float-right {
-    float: right;
+  float: right;
 }
 
 .content {
-    width: 75%;
+  width: 75%;
 }
 
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .menu li {
-    padding: 8px;
-    margin-bottom: 8px;
-    background: #33b5e5;
-    color: #ffffff;
+  padding: 8px;
+  margin-bottom: 8px;
+  background: #33b5e5;
+  color: #ffffff;
 }
 
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-    height: 0;
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
 }

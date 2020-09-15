@@ -2,172 +2,172 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 /*left part of the site*/
 
 aside {
-    float: left;
-    width: 15%;
+  float: left;
+  width: 15%;
 }
 
 aside h1 {
-    font-size: 2.3rem;
-    font-family: "Comfortaa", sans-serif;
-    text-align: center;
-    letter-spacing: 3px;
+  font-size: 2.3rem;
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
 }
 
 aside img {
-    border-radius: 50%;
-    width: 30%;
-    max-width: 140px;
-    display: block;
-    margin: 0 auto;
+  border-radius: 50%;
+  width: 30%;
+  max-width: 140px;
+  display: block;
+  margin: 0 auto;
 }
 
 aside p {
-    color: #DCE4EA;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: " Open Sans", sans-serif;
+  color: #dce4ea;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: ' Open Sans', sans-serif;
 }
 
 nav ul {
-    padding: 0;
+  padding: 0;
 }
 
 nav ul li {
-    list-style-type: none;
-    border-left: 3px solid transparent;
-    padding: 10px 20px;
+  list-style-type: none;
+  border-left: 3px solid transparent;
+  padding: 10px 20px;
 }
 
 nav ul li a {
-    text-transform: uppercase;
-    color: #C6CED5;
-    font-family: "Comfortaa", sans-serif;
-    letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #c6ced5;
+  font-family: 'Comfortaa', sans-serif;
+  letter-spacing: 2px;
 }
 
 nav ul li:hover {
-    cursor: pointer;
-    border-left: 3px solid #F3AB85;
+  cursor: pointer;
+  border-left: 3px solid #f3ab85;
 }
 
-nav ul li:hover a{
-    color: #797C80;;
+nav ul li:hover a {
+  color: #797c80;
 }
 
 /*right part of the site*/
 
 main {
-    width: 75%;
-    float: right;
-    background: #F4F5F7;
-    padding: 3%;
+  width: 75%;
+  float: right;
+  background: #f4f5f7;
+  padding: 3%;
 }
 
 main > header {
-    font-family: "Open Sans", sans-serif;
-    color: #727B7B;
-    margin-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #727b7b;
+  margin-bottom: 40px;
 }
 
 main > header span.number {
-    color: #A8B6BE;
+  color: #a8b6be;
 }
 
 main > header a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #EE9166;
-    padding: 12px;
-    float: right;
-    border-radius: 18px;
-    margin-right: 45px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ee9166;
+  padding: 12px;
+  float: right;
+  border-radius: 18px;
+  margin-right: 45px;
 }
 
 main > header a:hover {
-    background: none;
-    color: #EE9166;
-    border: 1px solid #EE9166;
+  background: none;
+  color: #ee9166;
+  border: 1px solid #ee9166;
 }
 
 .clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 .triple h3 {
-    text-transform: capitalize;
-    font-weight: bold;
-    font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .triple h4 {
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
 }
 
 article {
-    display: inline-block;
-    background: #ffffff;
-    box-shadow: 8px 6px 17px -1px rgba(0 ,0, 0, 0.26);
-    margin: 0 20px;
+  display: inline-block;
+  background: #ffffff;
+  box-shadow: 8px 6px 17px -1px rgba(0, 0, 0, 0.26);
+  margin: 0 20px;
 }
 
 article.rented-article {
-    background: #FAFBFD;
+  background: #fafbfd;
 }
 
 div.rented {
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #B6C4CC;
-    padding: 5px 10px;
-    border-radius: 30px;
-    width: 72px;
-    position: relative;
-    top: 45px;
-    left: -25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #b6c4cc;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 72px;
+  position: relative;
+  top: 45px;
+  left: -25px;
 }
 
 div.listed {
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #68BB69;
-    padding: 5px 10px;
-    border-radius: 30px;
-    width: 72px;
-    position: relative;
-    top: 45px;
-    left: -25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #68bb69;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 72px;
+  position: relative;
+  top: 45px;
+  left: -25px;
 }
 
 div.draft {
-    text-transform: uppercase;
-    color: #ffffff;
-    background: #91A5AE;
-    padding: 5px 10px;
-    border-radius: 30px;
-    width: 72px;
-    position: relative;
-    top: 45px;
-    left: -25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #91a5ae;
+  padding: 5px 10px;
+  border-radius: 30px;
+  width: 72px;
+  position: relative;
+  top: 45px;
+  left: -25px;
 }
 
 .triple > article > p {
-    text-transform: capitalize;
-    font-family: "Open Sans", sans-serif;
-    padding-left: 20px;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 20px;
 }

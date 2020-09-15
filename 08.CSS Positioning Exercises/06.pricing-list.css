@@ -1,75 +1,76 @@
 @font-face {
-    font-family: Vollkorn;
-    src: url(fonts/Vollkorn-Regular.ttf);
+  font-family: Vollkorn;
+  src: url(fonts/Vollkorn-Regular.ttf);
 }
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    margin: 30px auto;
-    width: 1000px;
-    font-family: Vollkorn, sans-serif;
-    color: #6A788B;
+  margin: 30px auto;
+  width: 1000px;
+  font-family: Vollkorn, sans-serif;
+  color: #6a788b;
 }
 
 h1 {
-    text-align: center;
-    font-size: 40px;
-    text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 article {
-    width: 300px;
-    display: inline-block;
-    margin: 10px;
-    vertical-align: top;
-    border: 1px solid #EBEFF2;
-    height: 550px;
+  width: 300px;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: top;
+  border: 1px solid #ebeff2;
+  height: 550px;
 }
 
 h2 {
-    text-transform: capitalize;
-    text-align: center;
-    padding: 20px;
-    background: #EBEFF2;
-    font-size: 30px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 20px;
+  background: #ebeff2;
+  font-size: 30px;
 }
 
 p {
-    font-size: 60px;
-    text-align: center;
-    padding: 10px 0;
+  font-size: 60px;
+  text-align: center;
+  padding: 10px 0;
 }
 
 ul li {
-    list-style-type: none;
-    padding: 15px 10px 2px 10px;
-    border-bottom: 1px solid #EBEFF2;
-    margin: 0 10px;
+  list-style-type: none;
+  padding: 15px 10px 2px 10px;
+  border-bottom: 1px solid #ebeff2;
+  margin: 0 10px;
 }
 
 button {
-    margin-top: 300px;
-    position: absolute;
-    top: 270px;
-    margin-left: 55px;
-    background: #DDDDDD;
-    border: none;
-    text-transform: capitalize;
-    color: #ffffff;
-    padding: 15px 50px;
-    border-radius: 12px;
+  margin-top: 300px;
+  position: absolute;
+  top: 270px;
+  margin-left: 55px;
+  background: #dddddd;
+  border: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  padding: 15px 50px;
+  border-radius: 12px;
 }
 
-article:hover h2, article:hover button {
-    background: #65D3E2;
-    cursor: pointer;
+article:hover h2,
+article:hover button {
+  background: #65d3e2;
+  cursor: pointer;
 }
 
 article:hover p {
-    color: #65D3E2;
-    cursor: pointer;
+  color: #65d3e2;
+  cursor: pointer;
 }

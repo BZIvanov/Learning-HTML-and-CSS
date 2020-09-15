@@ -1,103 +1,91 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
-    font-size: 16px;
-    color: #ffffff;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 body {
-    background-color: #24437C;
+  background-color: #24437c;
 }
 
 header > nav > img {
-    margin: 20px;
+  margin: 20px;
 }
 
 header nav ul {
-    float: right;
-    margin-right: 15px;
+  float: right;
+  margin-right: 15px;
 }
 
 header nav ul li {
-    display: inline-block;
-    padding: 10px;
+  display: inline-block;
+  padding: 10px;
 }
 
 header nav ul li.cta-btn {
-    background-color: #3DC1EF;
-    border-radius: 10px;
+  background-color: #3dc1ef;
+  border-radius: 10px;
 }
 
 header nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 header nav ul li:first-letter {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .header-title {
-    text-transform: capitalize;
-    text-align: center;
-    letter-spacing: 3px;
-    font-size: 3rem;
-    font-weight: 100;
-    margin: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  font-weight: 100;
+  margin: 50px;
 }
 
 .header-subtitle {
-    color: #37638E;
-    text-transform: capitalize;
-    text-align: center;
+  color: #37638e;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 a.header-btn {
-    text-transform: capitalize;
-    background-color: #3DC1EF;
-    display: block;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    width: 100px;
-    border-radius: 10px;
+  text-transform: capitalize;
+  background-color: #3dc1ef;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  width: 100px;
+  border-radius: 10px;
 }
 
 .header-services li {
-    display: inline-block;
-    width: 270px;
-    margin: 50px 100px 0 100px;
+  display: inline-block;
+  width: 270px;
+  margin: 50px 100px 0 100px;
 }
 
 h2.service-title {
-    text-align: center;
-    padding: 15px 0;
+  text-align: center;
+  padding: 15px 0;
 }
 
 a.service-link {
-    text-decoration: none;
-    color: #ffffff;
-    display: block;
-    padding: 20px 0;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  padding: 20px 0;
 }
 
 article {
-    padding: 30px;
+  padding: 30px;
 }
 
 article:hover {
-    background-color: #3DC1EF;
-    cursor: pointer;
+  background-color: #3dc1ef;
+  cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-

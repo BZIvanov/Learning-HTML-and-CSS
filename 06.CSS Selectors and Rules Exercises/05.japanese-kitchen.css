@@ -1,139 +1,139 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    font-family: "Lato", sans-serif;
-    font-size: 14px;
-    background: url("images/dark-wood.jpg");
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  background: url('images/dark-wood.jpg');
 }
 
 header {
-    width: 940px;
-    margin: auto;
-    background: url("images/header-page.jpg");
-    height: 130px;
+  width: 940px;
+  margin: auto;
+  background: url('images/header-page.jpg');
+  height: 130px;
 }
 
 header > h1 {
-    float: right;
-    padding: 30px 10px;
-    font-size: 3rem;
+  float: right;
+  padding: 30px 10px;
+  font-size: 3rem;
 }
 
 body > nav {
-    display: block;
-    width: 940px;
-    margin: 5px auto;
-    background: url("images/header-page.jpg");
+  display: block;
+  width: 940px;
+  margin: 5px auto;
+  background: url('images/header-page.jpg');
 }
 
 nav ul li {
-    display: inline-block;
-    padding: 5px 25px;
+  display: inline-block;
+  padding: 5px 25px;
 }
 
 nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 nav ul li:first-of-type a {
-    color: #2A2A38;
+  color: #2a2a38;
 }
 
 nav ul li a:hover {
-    color: #2A2A38;
+  color: #2a2a38;
 }
 
 main {
-    width: 940px;
-    margin: auto;
-    background: #ffffff;
+  width: 940px;
+  margin: auto;
+  background: #ffffff;
 }
 
 main > section {
-    width: 70%;
-    display: inline-block;
+  width: 70%;
+  display: inline-block;
 }
 
 section article:after {
-    content: '';
-    display: block;
-    clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
 
 figure {
-    border: 1px solid #F2F2F2;
-    float: left;
-    margin: 15px;
-    padding: 5px;
+  border: 1px solid #f2f2f2;
+  float: left;
+  margin: 15px;
+  padding: 5px;
 }
 
 section.courses {
-    border-right: 1px solid #F2F2F2;
+  border-right: 1px solid #f2f2f2;
 }
 
 aside {
-    float: right;
-    height: 100%;
-
+  float: right;
+  height: 100%;
 }
 
 section article div h2 {
-    color: #5E6D7C;
-    margin-top: 15px;
-    padding: 5px;
+  color: #5e6d7c;
+  margin-top: 15px;
+  padding: 5px;
 }
 
 section article div h3 {
-    color: #E3C87D;
-    padding: 5px;
+  color: #e3c87d;
+  padding: 5px;
 }
 
 section article > p {
-    color: #9C9790;
-    margin-top: 10px;
+  color: #9c9790;
+  margin-top: 10px;
 }
 
 article figure figcaption {
-    color: #9C9790;
-    font-weight: bold;
-    padding: 3px;
+  color: #9c9790;
+  font-weight: bold;
+  padding: 3px;
 }
 
 section.popular-recipes {
-    width: 59%;
+  width: 59%;
 }
 
 .popular-recipes h2 {
-    color: #E78E9B;
-    font-size: 2rem;
-    padding: 35px 50px 20px 0;
+  color: #e78e9b;
+  font-size: 2rem;
+  padding: 35px 50px 20px 0;
 }
 
 .popular-recipes ul li {
-    list-style: none;
-    padding: 10px;
-    border-bottom: 1px solid #F2F2F2;
+  list-style: none;
+  padding: 10px;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .popular-recipes ul li a {
-    color: #E78E9B;
-    text-decoration: none;
+  color: #e78e9b;
+  text-decoration: none;
 }
 
-.popular-recipes ul li:hover, .popular-recipes ul li:hover a {
-    color: #B2858A;
-    background-color: #EFEFEF;
-    cursor: pointer;
+.popular-recipes ul li:hover,
+.popular-recipes ul li:hover a {
+  color: #b2858a;
+  background-color: #efefef;
+  cursor: pointer;
 }
 
 footer {
-    background-color: #AEACA8;
-    text-align: center;
-    color: #ffffff;
-    padding: 10px;
-    clear: both;
+  background-color: #aeaca8;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+  clear: both;
 }

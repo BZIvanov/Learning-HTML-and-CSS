@@ -1,39 +1,64 @@
 @font-face {
-    font-family: Sansita;
-    src: url('fonts/SansitaOne.ttf');
+  font-family: Sansita;
+  src: url('fonts/SansitaOne.ttf');
 }
 
 html {
-    font-size: 20px;
-    font-family: Sansita, sans-serif;
-    background: url('images/bg.jpg');
+  font-size: 20px;
+  font-family: Sansita, sans-serif;
+  background: url('images/bg.jpg');
 }
 
 body > header {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff0000+33,1cd600+33,1cd600+67,0000ff+67,0000ff+100 */
-    background: #ff0000; /* Old browsers */
-    background: -moz-linear-gradient(left,  #ff0000 0%, #ff0000 33%, #1cd600 33%, #1cd600 67%, #0000ff 67%, #0000ff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  #ff0000 0%,#ff0000 33%,#1cd600 33%,#1cd600 67%,#0000ff 67%,#0000ff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  #ff0000 0%,#ff0000 33%,#1cd600 33%,#1cd600 67%,#0000ff 67%,#0000ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 */
-    text-align: center;
-    color: #ffff00;
-    font-size: 1.4rem;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff0000+0,ff0000+33,1cd600+33,1cd600+67,0000ff+67,0000ff+100 */
+  background: #ff0000; /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    #ff0000 0%,
+    #ff0000 33%,
+    #1cd600 33%,
+    #1cd600 67%,
+    #0000ff 67%,
+    #0000ff 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    #ff0000 0%,
+    #ff0000 33%,
+    #1cd600 33%,
+    #1cd600 67%,
+    #0000ff 67%,
+    #0000ff 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff0000 0%,
+    #ff0000 33%,
+    #1cd600 33%,
+    #1cd600 67%,
+    #0000ff 67%,
+    #0000ff 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#0000ff',GradientType=1 ); /* IE6-9 */
+  text-align: center;
+  color: #ffff00;
+  font-size: 1.4rem;
 }
 
 aside {
-    float: left;
+  float: left;
 }
 
 main {
-    width: 1200px;
-    margin-left: 290px;
+  width: 1200px;
+  margin-left: 290px;
 }
 
-aside, article {
-    background-color: rgba(245, 230, 254, 0.9);
-    border-radius: 10px;
-    margin: 20px;
+aside,
+article {
+  background-color: rgba(245, 230, 254, 0.9);
+  border-radius: 10px;
+  margin: 20px;
 }
 
 nav {
@@ -41,67 +66,67 @@ nav {
 }
 
 nav header {
-    text-decoration: underline;
-    text-align: center;
-    padding-top: 10px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 10px;
 }
 
 nav ul li {
-    list-style: none;
-    padding: 5px;
-    margin-right: 20px;
+  list-style: none;
+  padding: 5px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: #333333;
-    padding-left: 10px;
+  text-decoration: none;
+  color: #333333;
+  padding-left: 10px;
 }
 
 nav ul li a::before {
-    content: url('images/a.png');
-    margin: 5px 5px -5px -5px;
+  content: url('images/a.png');
+  margin: 5px 5px -5px -5px;
 }
 
 nav ul li:first-of-type:hover {
-    background-color: red;
-    border-radius: 10px;
+  background-color: red;
+  border-radius: 10px;
 }
 
 nav ul li:nth-child(4):hover {
-    background-color: green;
-    border-radius: 10px;
+  background-color: green;
+  border-radius: 10px;
 }
 
 #webColors {
-    background-color: red;
-    border-radius: inherit;
-    color: white;
-    padding: 10px 5px;
+  background-color: red;
+  border-radius: inherit;
+  color: white;
+  padding: 10px 5px;
 }
 
 #RGBA {
-    background-color: green;
-    border-radius: inherit;
-    color: white;
-    padding: 10px 5px;
+  background-color: green;
+  border-radius: inherit;
+  color: white;
+  padding: 10px 5px;
 }
 article {
-    padding: 10px;
+  padding: 10px;
 }
 
-article > header[id="#HSLHSV"] {
-    background-color: purple;
-    border-radius: inherit;
-    color: white;
-    padding: 10px 5px;
+article > header[id='#HSLHSV'] {
+  background-color: purple;
+  border-radius: inherit;
+  color: white;
+  padding: 10px 5px;
 }
 
 article p:first-of-type:first-line {
-    font-style: italic;
+  font-style: italic;
 }
 
 article p:first-letter {
-    text-transform: uppercase;
-    font-size: 2.5rem;
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
