@@ -101,7 +101,7 @@ footer {
 }
 
 article p:last-of-type span:first-of-type a::before {
-  content: url('images/comment.png');
+  content: url('./images/comment.png');
   position: relative;
   padding: 10px;
   right: 5px;

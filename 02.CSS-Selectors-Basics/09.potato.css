@@ -80,7 +80,7 @@ img.header-potato {
 }
 
 div.features {
-  background: url('images/potato-background.png') no-repeat;
+  background: url('./images/potato-background.png') no-repeat;
   background-size: cover;
 }
 

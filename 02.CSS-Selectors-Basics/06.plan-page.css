@@ -38,21 +38,21 @@ div ul li {
 
 div ul li#basic-plan {
   background-color: #ffffff;
-  background-image: url('images/plan-background-basic.png');
+  background-image: url('./images/plan-background-basic.png');
   background-size: 200px 150px;
   background-repeat: no-repeat;
 }
 
 div ul li#pro-plan {
   background-color: #ffffff;
-  background-image: url('images/plan-background-pro.png');
+  background-image: url('./images/plan-background-pro.png');
   background-size: 200px 150px;
   background-repeat: no-repeat;
 }
 
 div ul li#med-plan {
   background-color: #ffffff;
-  background-image: url('images/plan-background-med.png');
+  background-image: url('./images/plan-background-med.png');
   background-size: 200px 150px;
   background-repeat: no-repeat;
 }

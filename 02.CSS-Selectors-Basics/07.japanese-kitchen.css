@@ -6,13 +6,13 @@
 html {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  background: url('images/dark-wood.jpg');
+  background: url('./images/dark-wood.jpg');
 }
 
 header {
   width: 940px;
   margin: auto;
-  background: url('images/header-page.jpg');
+  background: url('./images/header-page.jpg');
   height: 130px;
 }
 
@@ -26,7 +26,7 @@ body > nav {
   display: block;
   width: 940px;
   margin: 5px auto;
-  background: url('images/header-page.jpg');
+  background: url('./images/header-page.jpg');
 }
 
 nav ul li {
