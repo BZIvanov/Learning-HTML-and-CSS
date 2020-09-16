@@ -14,8 +14,6 @@ body {
   background: #cacac9;
 }
 
-/*navigation header*/
-
 header {
   width: 1000px;
   background: #ffffff;
@@ -56,8 +54,6 @@ nav ul li a span.second-letter {
 nav ul li a:hover {
   color: #bf1363;
 }
-
-/*articles*/
 
 article {
   display: inline-block;

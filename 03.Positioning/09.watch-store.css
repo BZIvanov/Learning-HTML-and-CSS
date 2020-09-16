@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Lemon';
-  src: url('fonts/Lemon-Regular.ttf');
+  src: url('./fonts/Lemon-Regular.ttf');
 }
 
 * {

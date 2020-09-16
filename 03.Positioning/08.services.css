@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Open Sans extrabold';
-  src: url('fonts/OpenSans-ExtraBold.ttf');
+  src: url('./fonts/OpenSans-ExtraBold.ttf');
 }
 
 * {

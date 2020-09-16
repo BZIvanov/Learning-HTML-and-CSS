@@ -10,8 +10,6 @@ html {
   font-size: 14px;
 }
 
-/*left part of the site*/
-
 aside {
   float: left;
   width: 15%;
@@ -64,8 +62,6 @@ nav ul li:hover {
 nav ul li:hover a {
   color: #797c80;
 }
-
-/*right part of the site*/
 
 main {
   width: 75%;

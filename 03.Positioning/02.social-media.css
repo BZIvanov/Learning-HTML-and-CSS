@@ -47,7 +47,7 @@ a {
 footer > section > div div {
   width: 70px;
   height: 58px;
-  background: url('images/social.jpg');
+  background: url('./images/social.jpg');
   display: inline-block;
 }
 
