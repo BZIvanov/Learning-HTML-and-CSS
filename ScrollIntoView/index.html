@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: cadetblue;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      tr {
+        display: block;
+      }
+      tbody {
+        display: block;
+        overflow: auto;
+        height: 500px;
+      }
+      th,
+      td {
+        border: 2px solid blueviolet;
+        padding: 5px 20px;
+        border-collapse: collapse;
+        width: 100px;
+      }
+      .special {
+        background-color: burlywood;
+      }
+      button {
+        margin: 20px;
+        padding: 10px 15px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll into view</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div id="dummy-area">
+      <h1>Some title</h1>
+      <p>
+        To test this scroll to the top of the body and top of the table and
+        click the button. You should be scrolled to the special row
+      </p>
+    </div>
+    <div>
+      <button id="btn">Scroll into view</button>
+      <table>
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
