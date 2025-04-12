@@ -1,0 +1,13 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: #f1dcbe;
+  font-family: cursive;
+  text-shadow: 2px 2px 0px #eb452c, 4px 4px 0px #efa033, 6px 6px 0px #46b49b,
+    8px 8px 0px #027e7f, 10px 10px 0px #052939, 12px 12px 0px #c11b2b,
+    14px 14px 0px #c11b2b, 16px 16px 0px #c11b2b;
+}
