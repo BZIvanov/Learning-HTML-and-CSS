@@ -21,9 +21,10 @@ To use the extension select the html file you want to use and click the `live se
 1. **HTMLTags** - various html tags
 2. **Colors** - learning examples for colors
 3. **TextStyling** - learning to style texts
-4. **Positioning** - demos and projects about positioning
-5. **Forms** - demos and projects about forms
-6. **Selectors** - css selectors
-7. **AdvancedSelectors** - advanced css selectors
-8. **Animations** - demos and projects about animations
-9. **DemoProjects** - projects focused on various topics
+4. **BoxModel** - info about the box model
+5. **Positioning** - demos and projects about positioning
+6. **Forms** - demos and projects about forms
+7. **Selectors** - css selectors
+8. **AdvancedSelectors** - advanced css selectors
+9. **Animations** - demos and projects about animations
+10. **DemoProjects** - projects focused on various topics
