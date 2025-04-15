@@ -1,0 +1,7 @@
+/* with relative position, we can specify top and left for example */
+.second {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: lightblue;
+}

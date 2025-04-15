@@ -1,0 +1,16 @@
+.fancy-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+
+  /* Transition setup */
+  transition: transform 0.3s ease;
+}
+
+.fancy-button:hover {
+  transform: translateX(10px);
+}
