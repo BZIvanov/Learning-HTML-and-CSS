@@ -23,8 +23,10 @@ To use the extension select the html file you want to use and click the `live se
 3. **TextStyling** - learning to style texts
 4. **BoxModel** - info about the box model
 5. **Positioning** - demos and projects about positioning
-6. **Forms** - demos and projects about forms
-7. **Selectors** - css selectors
-8. **AdvancedSelectors** - advanced css selectors
-9. **Animations** - demos and projects about animations
-10. **DemoProjects** - projects focused on various topics
+6. **FlexBox** - flex box
+7. **MediaQueries** - media queries
+8. **Forms** - demos and projects about forms
+9. **Selectors** - css selectors
+10. **AdvancedSelectors** - advanced css selectors
+11. **Animations** - demos and projects about animations
+12. **DemoProjects** - projects focused on various topics
