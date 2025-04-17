@@ -1,0 +1,15 @@
+.grid-container {
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.box {
+  font-size: 2rem;
+  padding: 40px 0;
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+.grid-container {
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "sidebar content content content"
+    "sidebar content content content"
+    "sidebar content content content";
+}
+
+.box {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.box1 {
+  grid-area: sidebar;
+}
+
+.box2 {
+  grid-area: header;
+}
+
+.box3 {
+  grid-area: content;
+}
