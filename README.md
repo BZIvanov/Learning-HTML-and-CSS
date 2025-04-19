@@ -16,6 +16,10 @@ This section is useful and recommending using VSCode as an IDE.
 
 To use the extension select the html file you want to use and click the `live server` icon placed in bottom line of your VSCode editor.
 
+## Useful tools
+
+You can search in a website called **Codepen** for more advanced and interesting examples.
+
 ## Content
 
 1. **HTMLTags** - various html tags
