@@ -1,0 +1,55 @@
+/* :root defines global variables */
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --danger-color: #e74c3c;
+
+  --font-size-large: 1.8rem;
+  --box-padding: 30px;
+  --box-radius: 10px;
+  --text-color: #ffffff;
+  --spacing: 20px;
+  --bg-color: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  padding: var(--spacing);
+}
+
+h1 {
+  text-align: center;
+  font-size: var(--font-size-large);
+  margin-bottom: var(--spacing);
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: var(--spacing);
+}
+
+.box {
+  flex: 1 1 200px;
+  padding: var(--box-padding);
+  color: var(--text-color);
+  border-radius: var(--box-radius);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.red {
+  background-color: var(--danger-color);
+}
+
+.blue {
+  background-color: var(--primary-color);
+}
+
+.green {
+  background-color: var(--secondary-color);
+}

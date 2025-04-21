@@ -34,4 +34,5 @@ You can search in a website called **Codepen** for more advanced and interesting
 10. **Selectors** - css selectors
 11. **AdvancedSelectors** - advanced css selectors
 12. **Animations** - demos and projects about animations
-13. **DemoProjects** - projects focused on various topics
+13. **Variables** - css variables
+14. **DemoProjects** - projects focused on various topics
