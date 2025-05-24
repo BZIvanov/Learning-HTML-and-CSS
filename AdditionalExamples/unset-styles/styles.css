@@ -1,0 +1,17 @@
+div {
+  margin: 20px;
+}
+
+button {
+  all: unset;
+}
+
+.second-button {
+  all: initial;
+  color: blue;
+  background-color: lightgray;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
